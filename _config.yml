@@ -16,13 +16,12 @@ show_drafts: nil
 limit_posts: 0
 pygments:    true
 
-relative_permalinks: true
+# relative_permalinks: true
 
-#permalink:     date
-permalink: pretty
+permalink: /:year/:month/:day/:title
 paginate_path: 'page:num'
 
-markdown:      maruku
+markdown: rdiscount
 markdown_ext:  markdown,mkd,mkdn,md
 textile_ext:   textile
 

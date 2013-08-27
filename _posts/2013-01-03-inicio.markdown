@@ -1,0 +1,18 @@
+--- 
+layout: page
+title: "Home"
+permalink: /inicio/
+author: Jorge Grippo
+date: 2013-01-03 21:29:11
+comments: true
+sharing: true
+footer: true
+status: publish
+type: page
+published: true
+categories: 
+
+---
+<!-- 433 -->
+Blog de Grippo.com
+

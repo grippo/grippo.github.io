@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Bienvenido a Grippo"
 date:   2013-08-26 19:48:35
 categories: jekyll update
 ---

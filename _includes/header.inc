@@ -40,7 +40,7 @@ window.google_analytics_uacct = "UA-137745-1"
           <a class="brand" href="#">{{ site.name }}</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li class="active"><a href="#">Inicio</a></li>
+              <li class="active"><a href="/">Inicio</a></li>
               <li><a href="#about">Archivo</a></li>
               <li><a href="#contact">Contacto</a></li>
             </ul>

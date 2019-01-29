@@ -67,3 +67,5 @@ kramdown:
 
 redcloth:
   hard_breaks: true
+
+theme: jekyll-theme-minimal

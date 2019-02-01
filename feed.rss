@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel><title>Grippo blog</title><link>https://grippo.github.io/index.html</link>
+<description>Buscando cosas nuevas</description><language>en</language>
+<lastBuildDate>Fri, 01 Feb 2019 15:13:11 -0300</lastBuildDate>
+<pubDate>Fri, 01 Feb 2019 15:13:11 -0300</pubDate>
+<atom:link href="https://grippo.github.io/feed.rss" rel="self" type="application/rss+xml" />
+<item><title>
+Blogging again
+</title><description><![CDATA[
+
+<p>This is very simple. I'm using GitHub Pages platform, but instead of Jekyll, I'm trying plain <b>html</b> blog posts, made with <a href="https://github.com/cfenollosa/bashblog">bashblog</a>.</p>
+
+<p>Tags: <a href='tag_blog.html'>blog</a></p>
+
+<!-- text end -->
+<p id='twitter'><a href='http://twitter.com/intent/tweet?url=https://grippo.github.io/blogging-again.html&text=&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;&via=@grippo'>Comments? Tweet</a> 
+<a href='https://twitter.com/search?q=https://grippo.github.io/blogging-again.html'><span id='count-32088'></span></a>&nbsp;</p>
+]]></description><link>https://grippo.github.io/blogging-again.html</link>
+<guid>https://grippo.github.io/./blogging-again.html</guid>
+<dc:creator>Jorge Grippo</dc:creator>
+<pubDate>Fri, 01 Feb 2019 15:13:04 -0300</pubDate></item>
+</channel></rss>

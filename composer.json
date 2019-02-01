@@ -1,0 +1,21 @@
+
+
+{
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "cfenollosa/bashblog",
+                "version": "dev-master",
+                "source": {
+                    "url": "https://github.com/cfenollosa/bashblog",
+                    "type": "git",
+                    "reference": "origin/master"
+                }
+            }
+        }
+    ],
+    "require": {
+        "cfenollosa/bashblog": "dev-master"
+    }
+}

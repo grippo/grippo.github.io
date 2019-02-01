@@ -1,0 +1,14 @@
+[
+    {
+        "name": "cfenollosa/bashblog",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/cfenollosa/bashblog",
+            "reference": "origin/master"
+        },
+        "type": "library",
+        "installation-source": "source"
+    }
+]

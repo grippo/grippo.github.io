@@ -32,11 +32,10 @@ facebook_page_url: https://www.facebook.com/psiconotas
 firebase_url: https://hitscounter.firebaseio.com
 firebase_table: psiconotas
 
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 
 author:
   name: Jorge Grippo
   email: webmaster@grippo.com
   github: grippo
   twitter: grippo
-

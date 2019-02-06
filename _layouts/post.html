@@ -1,0 +1,54 @@
+---
+layout: default
+---
+
+<ul class="pager">
+{% if page.previous.url %}
+  <li class="previous"><a href="{{page.previous.url}}" title="Articulo anterior: {{page.previous.title}}">&larr; {{page.previous.title}}</a></li>
+{% endif %}
+{% if page.next.url %}
+  <li class="next"><a href="{{page.next.url}}" title="Articulo siguiente: {{page.next.title}}">{{page.next.title}} &rarr;</a></li>
+{% endif %}
+</ul>
+
+<big>
+<!-- google_ad_section_start -->
+{{ content }}
+<!-- google_ad_section_end -->
+</big>
+
+{% include share.inc %}
+<br />
+<br />
+{% include author.inc %}
+
+
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title">Art&iacute;culos relacionados</h4>
+</div>
+<ul class="list-group">
+{% for post in site.related_posts limit:3 %}
+<li class="list-group-item"><a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
+</div>
+
+
+{% include ads-5.inc %}
+
+
+<ul class="pager">
+{% if page.previous.url %}
+  <li class="previous"><a href="{{page.previous.url}}" title="Articulo anterior: {{page.previous.title}}">&larr; {{page.previous.title}}</a></li>
+{% endif %}
+{% if page.next.url %}
+  <li class="next"><a href="{{page.next.url}}" title="Articulo siguiente: {{page.next.title}}">{{page.next.title}} &rarr;</a></li>
+{% endif %}
+</ul>
+
+{% include disqus.inc %}
+
+{% include fb-comments.inc %}
+
+

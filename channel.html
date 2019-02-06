@@ -1,1 +1,0 @@
-<script src="//connect.facebook.net/es_LA/all.js"></script>

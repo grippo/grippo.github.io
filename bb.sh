@@ -1,1 +1,0 @@
-vendor/cfenollosa/bashblog/bb.sh

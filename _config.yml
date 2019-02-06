@@ -1,4 +1,6 @@
 
+theme: jekyll-theme-cayman
+
 name: Psico Notas
 title: Psiconotas.com
 tagline: Blog de psicolog&iacute;a, psiquiatr&iacute;a y psicoan&aacute;lisis
@@ -39,9 +41,3 @@ author:
   email: webmaster@grippo.com
   github: grippo
   twitter: grippo
-<<<<<<< HEAD
-=======
-
-
-theme: jekyll-theme-cayman
->>>>>>> 6cb091e52cd96cc1083a0acc70399fba8bedfc88

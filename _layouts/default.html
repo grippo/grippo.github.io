@@ -1,0 +1,213 @@
+
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="{{ site.cdn_url }}/img/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="{{ site.cdn_url }}/img/favicon.ico" type="image/x-icon">
+<link rel="alternate" type="application/rss+xml"  href="{{ site.feedburner }}" title="{{ site.name }}">
+{% if page.title %}
+<title>{{ page.title }}</title>
+<meta name="title" content="{{ page.title }}">
+{% else %}
+<title>{{ site.title }}</title>
+<meta name="title" content="{{ site.title }}">
+{% endif %}
+<meta charset="utf-8">
+<script type="text/javascript" src="http://www.google.com/jsapi?key=ABQIAAAAJdkGEFTgqxMMkDNcBhIkxRToDxNj1XMoLLLfh-7X858QwysyFBS9ehOLy-x-TNlJBSthVEWT0oTl3Q"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+    
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-old-ie-min.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
+    <!--<![endif]-->
+    
+    
+        <!--[if lte IE 8]>
+            <link rel="stylesheet" href="https://purecss.io/combo/1.18.13?/css/layouts/blog-old-ie.css">
+        <![endif]-->
+        <!--[if gt IE 8]><!-->
+            <link rel="stylesheet" href="https://purecss.io/combo/1.18.13?/css/layouts/blog.css">
+        <!--<![endif]-->
+    <!--[if lt IE 9]>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js"></script>
+    <![endif]-->
+
+
+<meta property="og:type" content="article" />
+{% if page.title %}
+<meta property="og:title" content="{{ page.title }}" />
+{% else %}
+<meta property="og:title" content="{{ site.title }}" />
+{% endif %}
+<meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+<meta property="og:description" content="{{ page.excerpt | strip_html | strip_newlines | truncatewords: 32}}" />
+<meta property="og:site_name" content="{{ site.name }}" />
+{% if page.og_image %}
+<meta property="og:image" content="{{ page.og_image }}" />
+{% endif %}
+</HEAD>
+<body>
+<div id="layout" class="pure-g">
+    <div class="sidebar pure-u-1 pure-u-md-1-4">
+        <div class="header">
+            <a href="/"><h1 class="brand-title">{{ site.name }}</h1></a>
+            <!-- h2 class="brand-tagline">{{ site.tagline }}</h2 -->
+
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a class="pure-button" href="http://www.grippo.com/">Ir a Anuncios Grippo</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+
+    <div class="content pure-u-1 pure-u-md-3-4">
+        <div>
+         	<div class="posts">
+				{% include search.inc %}
+				{% if page.title %}
+				{% else %}
+				<h1 class="content-subhead">{{ site.title }}</h1>
+				{% endif %}
+
+				{% include ads-1.inc %}
+
+				{{ content }}
+
+				{% include ads-9.inc %}
+		</div>
+	</div>
+
+
+	<div class="footer">
+	    <div class="pure-menu pure-menu-horizontal">
+			<ul>
+	            <li class="pure-menu-item"><a class="pure-menu-link">{{ site.copyright }}</a>
+	            <li class="pure-menu-item"><a href="/contacto.html" rel="nofollow" class="pure-menu-link">Contacto</a>
+	            <li class="pure-menu-item"><a href="https://twitter.com/grippocom" rel="nofollow" class="pure-menu-link">@grippocom</a>
+	            <li class="pure-menu-item"><a href="https://apps.facebook.com/-grippo/" rel="nofollow" class="pure-menu-link">Publicar Anuncios Gratis en Facebook</a>
+	            <li class="pure-menu-item"><a href="/about/index.html" rel="nofollow" class="pure-menu-link">Acerca de ...</a>
+	            <li class="pure-menu-item"><a href="{{ site.feedburner }}" rel="alternate" type="application/rss+xml">RSS + XML</a>
+	        </ul>
+	    </div>
+	</div>
+
+</div>
+
+
+
+
+
+
+<div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '{{ site.facebook_app_id }}', // App ID
+      channelUrl : '{{ site.production_url }}/channel.html', // Channel File
+      status     : true, // check login status
+      cookie     : true, // enable cookies to allow the server to access the session
+      xfbml      : true  // parse XFBML
+    });
+    // Additional initialization code here
+  };
+
+  // Load the SDK Asynchronously
+  (function(d){
+     var js, id = 'facebook-jssdk'; if (d.getElementById(id)) {return;}
+     js = d.createElement('script'); js.id = id; js.async = true;
+     js.src = "//connect.facebook.net/es_LA/all.js";
+     d.getElementsByTagName('head')[0].appendChild(js);
+   }(document));
+</script>
+
+<script type="text/javascript">
+window.___gcfg = { lang: 'es-419' };
+(function() {
+var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+po.src = 'https://apis.google.com/js/plusone.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+})();
+</script>
+
+<script type="text/javascript">
+(function() {
+var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+po.src = 'https://platform.twitter.com/widgets.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+})();
+</script>
+
+
+<script src="{{ site.cdn_url }}/static/bootstrap-3.3.4/js/bootstrap.min.js"></script>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '{{ site.google_analytics_id }}', '{{ site.google_analytics_domain }}');
+  ga('send', 'pageview');
+</script>
+
+<script>
+$.ajax({
+url: '{{ site.firebase_url }}/{{ site.firebase_table }}.json',
+data: {
+orderBy: '"url"',
+equalTo: '"' + $(location).attr('pathname') + '"'
+},
+error: function() {
+},
+dataType: 'json',
+success: function(data) {
+found = false;
+$.each(data, function ( i, val ) {
+found = true;
+val.counter++;
+$( "#counter" ).html(val.counter + ' visitas');
+$.ajax({
+url: '{{ site.firebase_url }}/{{ site.firebase_table }}/' + i + '.json',
+data: JSON.stringify({"counter" : val.counter}),
+error: function() {
+},
+dataType: 'json',
+success: function(data) {
+},
+type: 'PATCH'
+});
+
+});
+if (! found) {
+$( "#counter" ).html("1 visita");
+$.ajax({
+url: '{{ site.firebase_url }}/{{ site.firebase_table }}.json',
+data: JSON.stringify({ "url": $(location).attr('pathname'), "counter" : 1 }),
+error: function() {
+},
+dataType: 'json',
+success: function(data) {
+},
+type: 'POST'
+});
+}
+},
+type: 'GET'
+});
+</script>
+
+</body>
+</html>
+

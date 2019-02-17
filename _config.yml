@@ -34,7 +34,7 @@ facebook_page_url: https://www.facebook.com/anuncios.grippo
 firebase_url: https://hitscounter.firebaseio.com
 firebase_table: blog
 
-#plugins: [jekyll-paginate]
+gems: [jekyll-paginate]
 
 author:
   name: Jorge Grippo

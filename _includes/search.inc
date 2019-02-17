@@ -1,4 +1,4 @@
-<form action="{{ site.production_url }}/results.html" id="cse-search-box" class="pure-form">
+<form action="/results.html" id="cse-search-box" class="pure-form">
   <div>
     <input type="hidden" name="cx" value="{{ site.google_partner_pub }}:{{ site.google_cse_id }}" />
     <input type="hidden" name="cof" value="FORID:10" />
@@ -8,4 +8,3 @@
   </div>
 </form>
 <script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=cse-search-box&lang=es"></script>
-

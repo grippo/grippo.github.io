@@ -63,8 +63,8 @@ layout: default
 
 	<h4>Comp&aacute;rtelo</h4>
 	<div class="txf_noads" style="line-height:10px; margin-bottom: 10px;">
-	<fb:like href="http:{{ site.url }}{{ page.url }}" send="true" layout="button_count" show_faces="false" font="" width=""></fb:like></button>
-	<a href="//twitter.com/share?text={{ page.title }}"                  class="twitter-share-button" data-url="http:{{ site.url }}{{ page.url }}" data-text="{{ page.title }}"  data-count="horizontal" data-via="grippocom" data-related="grippo:Jorge Grippo" data-lang="es" data-size="medium">Tweet</a>
+	<fb:like href="{{ site.url }}{{ page.url }}" send="true" layout="button_count" show_faces="false" font="" width=""></fb:like></button>
+	<a href="//twitter.com/share?text={{ page.title }}"                  class="twitter-share-button" data-url="{{ site.url }}{{ page.url }}" data-text="{{ page.title }}"  data-count="horizontal" data-via="grippocom" data-related="grippo:Jorge Grippo" data-lang="es" data-size="medium">Tweet</a>
 	<a role="button" class="pure-button" rel="nofollow" id="counter" style="float: right;"> visitas ... </a>
 	</div>
 
@@ -85,7 +85,7 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
 
 	{% if site.facebook_comments %}
 	<h4>Com&eacute;ntalo en tu Facebook</h4>
-	<fb:comments href="http:{{ site.url }}{{ page.url }}" num_posts="20" simple="true" showform="false" width="100%"></fb:comments>
+	<fb:comments href="{{ site.url }}{{ page.url }}" num_posts="20" simple="true" showform="false" width="100%"></fb:comments>
 	{% endif %}
 
 

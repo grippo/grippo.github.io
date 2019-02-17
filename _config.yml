@@ -5,7 +5,7 @@ tagline: El blog oficial de Grippo.com
 permalink: /:year/:month/:day/:title/index.html
 # permalink: /:title.html
 production_url: //blog.grippo.com
-url: https://blog.grippo.com
+url: http://blog.grippo.com
 baseurl:
 cdn_url: //d7zeocn4055cf.cloudfront.net
 feedburner: //feeds.feedburner.com/grippo
@@ -35,6 +35,7 @@ firebase_url: https://hitscounter.firebaseio.com
 firebase_table: blog
 
 gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 
 author:
   name: Jorge Grippo

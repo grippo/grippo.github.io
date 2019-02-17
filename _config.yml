@@ -6,14 +6,14 @@ permalink: /:year/:month/:day/:title/index.html
 # permalink: /:title.html
 production_url: //blog.grippo.com
 url: http://blog.grippo.com
-baseurl: 
+baseurl:
 cdn_url: //d7zeocn4055cf.cloudfront.net
 feedburner: //feeds.feedburner.com/grippo
 copyright: (c) 1996,2016 Grippo.com
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "CNAME", ".gitignore", ".git"]
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 paginate: 100
 excerpt_separator: <!--more-->
 

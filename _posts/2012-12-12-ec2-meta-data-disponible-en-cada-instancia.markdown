@@ -65,5 +65,5 @@ t1.micro
 La clave es pasar informaci&oacute;n a través de <tt>user_data</tt> al momento del lanzamiento y luego interrogar por esa información a través de <tt>$ curl http://169.254.169.254/2007-01-19/user-data/</tt> en el momento que sea necesario para customizar la instancia. Los datos que se pasan son opacos para AWS, quedando a tu disposici&oacute;n darles el formato adecuado para manipularlo cuando sea necesario. En el link de la referencia hay ejemplos.
 
 
-Referencia de urls disponibles en <a href="http://docs.amazonwebservices.com/AmazonEC2/dg/2007-01-19/AESDG-chapter-instancedata.html">Using Instance Data</a>
+Referencia de urls disponibles en <a href="https://docs.amazonwebservices.com/AmazonEC2/dg/2007-01-19/AESDG-chapter-instancedata.html">Using Instance Data</a>
 

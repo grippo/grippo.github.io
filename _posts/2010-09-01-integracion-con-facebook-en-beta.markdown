@@ -16,7 +16,7 @@ categories:
 ---
 <!-- 142 -->
 <p>
-Ayer lo anuncié <a href="http://twitter.com/grippo/status/22676263385">muy tarde en la noche en Twitter</a>, y hoy dejo constancia aquí: la integración de Grippo con FaceBook está en beta y la podés probar en la página <a href="http://www.grippo.com/user/login/facebook.html">Acceder con Facebook (beta)</a>.
+Ayer lo anuncié <a href="https://twitter.com/grippo/status/22676263385">muy tarde en la noche en Twitter</a>, y hoy dejo constancia aquí: la integración de Grippo con FaceBook está en beta y la podés probar en la página <a href="https://www.grippo.com/user/login/facebook.html">Acceder con Facebook (beta)</a>.
 </p>
 
 <p>

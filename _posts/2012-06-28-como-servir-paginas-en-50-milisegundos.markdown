@@ -31,17 +31,17 @@ Hace unos meses, en marzo más precisamente, me preguntaba si sería buena idea 
 
 <strong>Primeros resultados</strong>
 
-Un tema que estaba planteado teóricamente ahora lo pude comprobar. Y es el siguiente: los componentes dinámicos ¿como pueden ser desagregados del server por medio de web services, sin que se afecte el SEO de la página? Pues bien, la teoría era que Googlebot cada vez podría procesar más y más código Javascript en forma correcta y así lo está haciendo. Escribí algo al respecto y está sucediendo y está comprobado: <a href="/2012/06/16/ahora-googlebot-lee-javascriptdocument-write/">Ahora Googlebot lee Javascript:document.write()</a>. Pues bien, aquí viene otra prueba, que es decisiva. Los comentarios de Disqus, son incorporados en la página por medio de Javascript y son indexados por Google como si fueran html común y corriente. Esta frase es de un comentario <a href="http://unahormiga.com/">una hormiga</a>:
+Un tema que estaba planteado teóricamente ahora lo pude comprobar. Y es el siguiente: los componentes dinámicos ¿como pueden ser desagregados del server por medio de web services, sin que se afecte el SEO de la página? Pues bien, la teoría era que Googlebot cada vez podría procesar más y más código Javascript en forma correcta y así lo está haciendo. Escribí algo al respecto y está sucediendo y está comprobado: <a href="/2012/06/16/ahora-googlebot-lee-javascriptdocument-write/">Ahora Googlebot lee Javascript:document.write()</a>. Pues bien, aquí viene otra prueba, que es decisiva. Los comentarios de Disqus, son incorporados en la página por medio de Javascript y son indexados por Google como si fueran html común y corriente. Esta frase es de un comentario <a href="https://unahormiga.com/">una hormiga</a>:
 <blockquote>"Usando el plugin ese y automatizando la transferencia a S3 te ahorras el EC2, lo podrias tener al WP en localhost y mandar el html que te genere al S3."</blockquote>
 Si lo buscamos en Google, con las comillas, nos encuentra la nota donde fue insertado el comentario por medio de Disqus. Genial. Aquí van las pantallas por las dudas que esto cambie en el futuro:
 
 <strong>el resultado de la búsqueda:</strong>
 
-<img class="alignnone size-full wp-image-341" title="busqueda-de-comentario" src="http://blog.grippo.com/wp-content/uploads/2012/06/busqueda-de-comentario1.png" alt="" width="520" height="302" />
+<img class="alignnone size-full wp-image-341" title="busqueda-de-comentario" src="/wp-content/uploads/2012/06/busqueda-de-comentario1.png" alt="" width="520" height="302" />
 
 <strong>y el caché de la página:</strong>
 
-<img class="alignnone size-full wp-image-340" title="cache-de-comentario" src="http://blog.grippo.com/wp-content/uploads/2012/06/cache-de-comentario.png" alt="" width="478" height="412" />
+<img class="alignnone size-full wp-image-340" title="cache-de-comentario" src="/wp-content/uploads/2012/06/cache-de-comentario.png" alt="" width="478" height="412" />
 
 El dominio todavía resulta ser el antiguo (grippo.wordpress.com), que está redireccionado con HTTP REDIRECT 301 a blog.grippo.com, pero en la imagen queda claro que la página indexada es la nueva / actual.
 

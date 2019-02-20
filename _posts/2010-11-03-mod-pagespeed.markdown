@@ -17,7 +17,7 @@ categories:
 
 ---
 <!-- 126 -->
-Hoy <a href="http://googlewebmastercentral.blogspot.com/2010/11/make-your-websites-run-faster.html">Google anunció el módulo para Apache2 mod_pagespeed</a>. No está muy documentado. Sólo está la receta, que funciona muy bien, para la instalación como paquete Linux (Debian, Ubuntu, etc). Yo ya lo instalé en un server de prueba y en otro en producción, porque multiplicar X 2 la velocidad a la que el server despacha páginas está más que bueno. Asique hasta que mod_pagespeed tenga su página de documentación en httpd.apache.org, acá publico la documentación que viene en el punto conf, para quienes no quieran instalar antes de ver de que se trata.
+Hoy <a href="https://googlewebmastercentral.blogspot.com/2010/11/make-your-websites-run-faster.html">Google anunció el módulo para Apache2 mod_pagespeed</a>. No está muy documentado. Sólo está la receta, que funciona muy bien, para la instalación como paquete Linux (Debian, Ubuntu, etc). Yo ya lo instalé en un server de prueba y en otro en producción, porque multiplicar X 2 la velocidad a la que el server despacha páginas está más que bueno. Asique hasta que mod_pagespeed tenga su página de documentación en httpd.apache.org, acá publico la documentación que viene en el punto conf, para quienes no quieran instalar antes de ver de que se trata.
 <pre><code>&lt;IfModule pagespeed_module&gt;
     SetOutputFilter MOD_PAGESPEED_OUTPUT_FILTER
     ModPagespeed on

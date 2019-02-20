@@ -15,13 +15,13 @@ categories:
 
 ---
 <!-- 348 -->
-He usado todo tipo de software para monitorear servidores. Y todos me dieron resultados interesantes pero este servicio que estoy usando hace algunas semanas provisto por <a href="http://www.newrelic.com">New Relic</a>, es del tipo que no tiene contras. Y tiene muchísimas a favor, entre ellas que es muy liviano el componente en el server y todo el procesamiento, reporting y alertas se hace desde la nube.<!--more--> Mantenimiento cero y usabilidad bastante completa.
+He usado todo tipo de software para monitorear servidores. Y todos me dieron resultados interesantes pero este servicio que estoy usando hace algunas semanas provisto por <a href="https://www.newrelic.com">New Relic</a>, es del tipo que no tiene contras. Y tiene muchísimas a favor, entre ellas que es muy liviano el componente en el server y todo el procesamiento, reporting y alertas se hace desde la nube.<!--more--> Mantenimiento cero y usabilidad bastante completa.
 
-<a href="http://www.newrelic.com"><img class="size-full wp-image-349" title="server monitoring free tool" src="/wp-content/uploads/2012/07/new-relic.png" alt="" width="550" height="256" /></a>
+<a href="https://www.newrelic.com"><img class="size-full wp-image-349" title="server monitoring free tool" src="/wp-content/uploads/2012/07/new-relic.png" alt="" width="550" height="256" /></a>
 
 Así se instala newrelic, en cada server:
 
-<code>wget -O /etc/apt/sources.list.d/newrelic.list http://download.newrelic.com/debian/newrelic.list
+<code>wget -O /etc/apt/sources.list.d/newrelic.list https://download.newrelic.com/debian/newrelic.list
 apt-key adv --keyserver hkp://subkeys.pgp.net --recv-keys 548C16BF
 apt-get update
 apt-get install newrelic-sysmond

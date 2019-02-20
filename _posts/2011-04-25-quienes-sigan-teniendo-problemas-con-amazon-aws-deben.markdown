@@ -15,5 +15,5 @@ categories:
 
 ---
 <!-- 197 -->
-Quienes sigan teniendo problemas con Amazon AWS, deben llenar el formulario en http://aws-portal.amazon.com/gp/aws/html-forms-controller/contactus/aws-report-issue1
+Quienes sigan teniendo problemas con Amazon AWS, deben llenar el formulario en https://aws-portal.amazon.com/gp/aws/html-forms-controller/contactus/aws-report-issue1
 

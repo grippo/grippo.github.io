@@ -17,5 +17,5 @@ categories:
 
 ---
 <!-- 182 -->
-Estoy implementando JQuery -- http://jquery.com/
+Estoy implementando JQuery -- https://jquery.com/
 

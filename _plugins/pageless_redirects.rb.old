@@ -8,12 +8,12 @@
 # Example _redirects.yml
 #
 #   initial-page   : /destination-page
-#   other-page     : http://example.org/destination-page
+#   other-page     : https://example.org/destination-page
 #   "another/page" : /destination-page
 #
 #  Result:
 #   Requests to /initial-page are redirected to /destination-page
-#   Requests to /other-page are redirected to http://example.org/destination-page
+#   Requests to /other-page are redirected to https://example.org/destination-page
 #   Requests to /another/page are redirected to /destination-page
 #
 #
@@ -21,33 +21,33 @@
 #
 #   Redirect /some-page /destination-page
 #   Redirect 301 /different-page /destination-page
-#   Redirect cool-page http://example.org/destination-page
+#   Redirect cool-page https://example.org/destination-page
 #
 #  Result:
 #   Requests to /some-page are redirected to /destination-page
 #   Requests to /different-page are redirected to /destination-page
-#   Requests to /cool-page are redirected to http://example.org/destination-page
+#   Requests to /cool-page are redirected to https://example.org/destination-page
 #
 #
 # Example _redirects.json
 #
 #   {
 #     "some-page"        : "/destination-page",
-#     "yet-another-page" : "http://example.org/destination-page",
+#     "yet-another-page" : "https://example.org/destination-page",
 #     "ninth-page"       : "/destination-page"
 #   }
 #
 #  Result:
 #   Requests to /some-page are redirected to /destination-page
-#   Requests to /yet-another-page are redirected to http://example.org/destination-page
+#   Requests to /yet-another-page are redirected to https://example.org/destination-page
 #   Requests to /ninth-page are redirected to /destination-page
 #
 #
 # Author: Nick Quinlan
-# Site: http://nicholasquinlan.com
+# Site: https://nicholasquinlan.com
 # Plugin Source: https://github.com/nquinlan/jekyll-pageless-redirects
 # Plugin License: MIT
-# Plugin Credit: This plugin borrows heavily from alias_generator (http://github.com/tsmango/jekyll_alias_generator) by Thomas Mango (http://thomasmango.com)
+# Plugin Credit: This plugin borrows heavily from alias_generator (https://github.com/tsmango/jekyll_alias_generator) by Thomas Mango (https://thomasmango.com)
 
 require 'json'
 

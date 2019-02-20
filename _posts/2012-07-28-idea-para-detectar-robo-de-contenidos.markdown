@@ -30,7 +30,7 @@ Todos estamos sujetos a que nos roben contenidos (antes conocido como plagio). E
 <img src="/wp-content/uploads/2012/07/la-carta-robada.jpg" alt="" title="la-carta-robada" width="457" height="370" class="aligncenter size-full wp-image-411" />
 
 	<li>Usa esa keyword en tus plantillas. Especialmente en las que contienen tus artículos originales. Si te resultado difícil modificar plantillas y no te queda otra, ponelo en el texto de tus artículos. De tal manera que Google al indexar la página, se coma una pastilla de "pipzowiyi". Sobretodo en cada página nueva que publiques.</li>
-	<li>Crea una nueva alerta en <a title="Alertas de Google" href="http://www.google.com/alerts?hl=es" target="_blank">Alertas de Google</a>. Asegúrate de que en consulta de búsqueda, pongas tu propio "pipzowiyi", entre comillas, seguido de -site:www.example.com, sin comillas, donde www.example.com debes cambiarlo por tu propio dominio. En mi caso quedaría así "pipzowiyi" -site:www.grippo.com</li>
+	<li>Crea una nueva alerta en <a title="Alertas de Google" href="https://www.google.com/alerts?hl=es" target="_blank">Alertas de Google</a>. Asegúrate de que en consulta de búsqueda, pongas tu propio "pipzowiyi", entre comillas, seguido de -site:www.example.com, sin comillas, donde www.example.com debes cambiarlo por tu propio dominio. En mi caso quedaría así "pipzowiyi" -site:www.grippo.com</li>
 </ol>
 Listo. Alertas Google te avisará cada vez que sea indexada una nueva página que no sea de tu dominio y que contenga tu propio "pipzowiyi". ¿Fácil? ¡Facilísimo!
 

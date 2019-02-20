@@ -7,4 +7,4 @@
     <input type="submit" name="sa" value="Buscar" class="pure-button button-secondary" />
   </div>
 </form>
-<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=cse-search-box&lang=es"></script>
+<script type="text/javascript" src="https://www.google.com/coop/cse/brand?form=cse-search-box&lang=es"></script>

@@ -18,5 +18,5 @@ categories:
 
 ---
 <!-- 174 -->
-La cita anterior en http://grippo.wordpress.com/2011/02/25/you-may-be-able-to-simply-resize-the/ extraida de un artículo de Eric Hammond, me sembró esta inquietud. Que se puede conseguir mejor hardware. Y es lógico si pensamos que la plataforma está siendo renovada y expandida todo el tiempo. Asique esto es optimización realmente. Reboot de una instancia EBS te puede llevar a un mejor hardware... o no, pero probar vale la pena cuando un server no responde bien.
+La cita anterior en <a href="/2011/02/25/you-may-be-able-to-simply-resize-the/"> extraida de un artículo de Eric Hammond</a>, me sembró esta inquietud. Que se puede conseguir mejor hardware. Y es lógico si pensamos que la plataforma está siendo renovada y expandida todo el tiempo. Asique esto es optimización realmente. Reboot de una instancia EBS te puede llevar a un mejor hardware... o no, pero probar vale la pena cuando un server no responde bien.
 

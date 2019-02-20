@@ -28,7 +28,7 @@ Actualización:
 19:05 Van 37 horas, y anuncian que faltan 4 o 5 horas más para dar por terminado el incidente. Todavía no puedo usar las APIs. Se siente muy raro saber que tantas horas el sitio no estuvo en línea.
 
 Actualización 2:
-20:30 Excelente artículo tratando de aprender sobre esta experiencia -- http://agilesysadmin.net/ec2-outage-lessons
+20:30 Excelente artículo tratando de aprender sobre esta experiencia -- https://agilesysadmin.net/ec2-outage-lessons
 
 
 

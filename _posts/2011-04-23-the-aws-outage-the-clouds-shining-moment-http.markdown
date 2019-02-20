@@ -16,5 +16,5 @@ categories:
 ---
 <!-- 194 -->
 The AWS Outage: The Cloud's Shining Moment
-http://broadcast.oreilly.com/2011/04/the-aws-outage-the-clouds-shining-moment.html
+https://broadcast.oreilly.com/2011/04/the-aws-outage-the-clouds-shining-moment.html
 

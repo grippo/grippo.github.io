@@ -19,7 +19,7 @@ layout: default
 	<header class="post-header">
 		{% if page.author == 'Andrea' %}
 			<A HREF="https://plus.google.com/u/4/107607444967243020436" rel="me" title="Andrea Burdman">
-			<img class="post-avatar" alt="Andrea Burdman" height="48" width="48" src="http://www.psiconotas.com/wp-content/andrea.png">
+			<img class="post-avatar" alt="Andrea Burdman" height="48" width="48" src="/wp-content/andrea.png">
 			</A>
 
 			<h2 class="post-title">{{ page.title }}</h2>
@@ -35,14 +35,14 @@ layout: default
 
 
 		{% else %}
-			<A HREF="http://www.linkedin.com/in/grippo" rel="me" title="Jorge Grippo en LinkedIn">
+			<A HREF="https://www.linkedin.com/in/grippo" rel="me" title="Jorge Grippo en LinkedIn">
 			<img class="post-avatar" alt="Jorge Grippo" height="48" width="48" src="https://lh5.googleusercontent.com/-NbTZzB-k73k/AAAAAAAAAAI/AAAAAAAAIl8/g3W9uwPyTKw/photo.jpg?sz=50">
 			</A>
 
 			<h2 class="post-title">{{ page.title }}</h2>
 
 			<p class="post-meta">
-			Por <a href="http://www.linkedin.com/in/grippo" class="post-author" rel="author">Jorge Grippo</a>
+			Por <a href="https://www.linkedin.com/in/grippo" class="post-author" rel="author">Jorge Grippo</a>
 			el {{ page.date | date_to_string }}
 			en
 			{% for cat in page.categories %}

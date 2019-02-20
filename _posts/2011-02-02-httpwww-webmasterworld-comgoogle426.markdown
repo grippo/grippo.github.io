@@ -17,5 +17,5 @@ categories:
 ---
 <!-- 166 -->
 La mejor manera de decirle a Googlebot que una página no existe más:
-http://www.webmasterworld.com/google/4261092.htm
+https://www.webmasterworld.com/google/4261092.htm
 

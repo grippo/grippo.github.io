@@ -26,5 +26,5 @@ Según este anuncio, sólo un 1% de los resultados son afectados. Cruza tus dedo
 
 Para seguir el desarrollo, te recomiendo este hilo en WW:
 
-<a href="http://www.webmasterworld.com/google/4478587.htm" rel="nofollow">Panda 3.9 Rolling out 7/24/2012</a>.
+<a href="https://www.webmasterworld.com/google/4478587.htm" rel="nofollow">Panda 3.9 Rolling out 7/24/2012</a>.
 

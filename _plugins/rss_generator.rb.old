@@ -14,8 +14,8 @@
 #   rss_post_limit - (optional) the number of posts in the feed
 #
 # Author: Assaf Gelber <assaf.gelber@gmail.com>
-# Site: http://agelber.com
-# Source: http://github.com/agelber/jekyll-rss
+# Site: https://agelber.com
+# Source: https://github.com/agelber/jekyll-rss
 #
 # Distributed under the MIT license
 # Copyright Assaf Gelber 2014

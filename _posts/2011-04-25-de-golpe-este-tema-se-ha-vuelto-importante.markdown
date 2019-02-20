@@ -18,5 +18,5 @@ categories:
 ---
 <!-- 198 -->
 De golpe este tema se ha vuelto importante 
-http://uzyn.com/running-mysql-on-ec2-ephemeral-storage-while-maintaining-consistency/
+https://uzyn.com/running-mysql-on-ec2-ephemeral-storage-while-maintaining-consistency/
 

@@ -123,38 +123,8 @@
 
 
 
-
-
 <div id="fb-root"></div>
-<script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId      : '{{ site.facebook_app_id }}', // App ID
-      channelUrl : '{{ site.production_url }}/channel.html', // Channel File
-      status     : true, // check login status
-      cookie     : true, // enable cookies to allow the server to access the session
-      xfbml      : true  // parse XFBML
-    });
-    // Additional initialization code here
-  };
-
-  // Load the SDK Asynchronously
-  (function(d){
-     var js, id = 'facebook-jssdk'; if (d.getElementById(id)) {return;}
-     js = d.createElement('script'); js.id = id; js.async = true;
-     js.src = "//connect.facebook.net/es_LA/all.js";
-     d.getElementsByTagName('head')[0].appendChild(js);
-   }(document));
-</script>
-
-<script type="text/javascript">
-window.___gcfg = { lang: 'es-419' };
-(function() {
-var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-po.src = 'https://apis.google.com/js/plusone.js';
-var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-})();
-</script>
+<script async defer src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v3.2&appId=1218506551503338&autoLogAppEvents=1"></script>
 
 <script type="text/javascript">
 (function() {

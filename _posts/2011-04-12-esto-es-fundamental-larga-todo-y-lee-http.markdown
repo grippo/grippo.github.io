@@ -16,5 +16,5 @@ categories:
 
 ---
 <!-- 183 -->
-Esto es fundamental, largá todo y leé http://robertoguareschi.com/el-futuro-segun-kevin-kelly/ -- gracias @rguareschi
+Esto es fundamental, largá todo y leé https://robertoguareschi.com/el-futuro-segun-kevin-kelly/ -- gracias @rguareschi
 

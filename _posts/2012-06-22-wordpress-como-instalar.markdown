@@ -22,7 +22,7 @@ Este mecanismo para actualizar Wordpress es adecuado cuando tenés acceso SSH al
 <code>cd
 mkdir tmp
 cd tmp
-wget http://es.wordpress.org/wordpress-3.4-es_ES.zip
+wget https://es.wordpress.org/wordpress-3.4-es_ES.zip
 unzip wordpress-3.4-es_ES.zip
 mv wordpress htdocs
 tar -czf htdocs.tar.gz htdocs

@@ -25,7 +25,7 @@ categories:
 <!-- 157 -->
 Ahora que es época de brindis y balances, un minibalance me viene bien para insistir en algunas ideas:
 
-<a title="graph by jorge_grippo, on Flickr" href="http://www.flickr.com/photos/grippo/5226884177/"><img src="http://farm6.static.flickr.com/5248/5226884177_5b74b3990a.jpg" alt="graph" width="400" height="220" /></a>
+<a title="graph by jorge_grippo, on Flickr" href="https://www.flickr.com/photos/grippo/5226884177/"><img src="https://farm6.static.flickr.com/5248/5226884177_5b74b3990a.jpg" alt="graph" width="400" height="220" /></a>
 
 En este gráfico de Alexa se ven dos años del reporte de trending de Alexa. Muy conocido por todos, en mi caso me ayuda a realizar las siguientes consideraciones o aclaraciones:
 <ul>

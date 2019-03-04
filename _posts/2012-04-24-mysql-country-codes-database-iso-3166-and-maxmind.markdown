@@ -23,13 +23,13 @@ categories:
 <!-- 285 -->
 I've had to update my CMS to support ISO3166 country codes and also Maxmind geolocation country codes. Actually, there are 3 ISO standards, as we can see in Wikipedia for simplicity:
 <ol>
-	<li>Numeric 3 digit codes: http://en.wikipedia.org/wiki/ISO_3166-1_numeric</li>
-	<li>Alpha 2 chars codes: http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2</li>
-	<li>Alpha 3 chars codes: http://en.wikipedia.org/wiki/ISO_3166-1_alpha-3</li>
+	<li>Numeric 3 digit codes: https://en.wikipedia.org/wiki/ISO_3166-1_numeric</li>
+	<li>Alpha 2 chars codes: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2</li>
+	<li>Alpha 3 chars codes: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3</li>
 </ol>
 <!--more-->I've synchronized country names from those 3 tables, and also from a fourth table coming from Maxmind product for geolocation:
 <ul>
-	<li>GeoIP country: http://www.maxmind.com/app/iso3166</li>
+	<li>GeoIP country: https://www.maxmind.com/app/iso3166</li>
 </ul>
 which comes with 3 added rows to catch some exceptions:
 <ol>

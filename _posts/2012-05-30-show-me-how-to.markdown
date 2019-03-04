@@ -23,7 +23,7 @@ Hernán Botbol nos contó la cómo fue el inicio de Taringa, y siempre sorprende
 
 Santiago Bilinkis mostró cómo hicieron en Restorando.com para ir a Silicon Valley y volver con una ronda de más de 3.2M completamente cerrada en pocas semanas.
 
-<img src="http://blog.grippo.com/wp-content/uploads/2012/05/Captura-de-pantalla-2012-05-30-a-las-16.50.33-300x221.png" alt="" />
+<img src="/wp-content/uploads/2012/05/Captura-de-pantalla-2012-05-30-a-las-16.50.33-300x221.png" alt="" />
 
 Juan Martitegui mostró como trabajan en MindValley Hispano y cómo consiguen armar negocios rentables consiguiendo clientes felices con Adwords y trabajando en un funnel hasta convertir un contacto en cliente.
 

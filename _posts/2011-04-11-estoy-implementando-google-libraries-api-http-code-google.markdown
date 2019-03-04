@@ -17,5 +17,5 @@ categories:
 
 ---
 <!-- 181 -->
-Estoy implementando Google Libraries API -- http://code.google.com/apis/libraries/devguide.html
+Estoy implementando Google Libraries API -- https://code.google.com/apis/libraries/devguide.html
 

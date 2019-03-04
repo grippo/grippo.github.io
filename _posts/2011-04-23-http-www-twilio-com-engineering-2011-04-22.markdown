@@ -16,5 +16,5 @@ categories:
 ---
 <!-- 193 -->
 Why Twilio Wasn’t Affected by Today’s AWS Issues
-http://www.twilio.com/engineering/2011/04/22/why-twilio-wasnt-affected-by-todays-aws-issues/
+https://www.twilio.com/engineering/2011/04/22/why-twilio-wasnt-affected-by-todays-aws-issues/
 

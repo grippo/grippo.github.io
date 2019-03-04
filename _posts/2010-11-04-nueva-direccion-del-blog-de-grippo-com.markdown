@@ -16,6 +16,6 @@ categories:
 ---
 <!-- 149 -->
 Por favor, actualiza tus marcadores, bookmarks o enlaces. El blog de Grippo.com se mudó definitivamente a <div>
-</div><div><a href="http://grippo.wordpress.com/">http://grippo.wordpress.com/</a></div><div>
-</div><div>Ya no hay más nada que hacer en blogger. Wordpress es muy superior.  Nos vemos allá :)</div>
+</div><div><a href="https://blog.grippo.com/">https://blog.grippo.com/</a></div><div>
+</div><div>Nos vemos allá :)</div>
 

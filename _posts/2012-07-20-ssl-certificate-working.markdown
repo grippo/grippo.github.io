@@ -35,7 +35,7 @@ Hay otro tipo de certificados que certifican aparte los datos de contacto de la 
 
 La movida de pasar a usar el protocolo seguro HTTPS es una iniciativa de Facebook, Twitter y Google entre otros, pero principalmente de Facebook que estuvo sujeto a todo tipo de fraudes cuando usaba el protocolo no seguro, y en un momento decidieron que toda la navegación sea encriptada con https. Eso obligó a todas las aplicaciones a implementar https entre fin del año pasado y principios del actual:
 
-<img class="alignnone size-full wp-image-363" title="https-facebook" src="http://blog.grippo.com/wp-content/uploads/2012/07/https-facebook.png" alt="" width="349" height="30" />
+<img class="alignnone size-full wp-image-363" title="https-facebook" src="/wp-content/uploads/2012/07/https-facebook.png" alt="" width="349" height="30" />
 
 Razón por la cual toda la industria va pasando a un futuro de protocolo web encriptado. La empresas que emiten certificados son varias. Entre ellas Certisur, Godaddy, Verisign, GeoTrust, Joohost, y varias más.
 

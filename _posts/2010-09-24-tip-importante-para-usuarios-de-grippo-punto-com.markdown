@@ -16,7 +16,7 @@ categories:
 ---
 <!-- 145 -->
 <div>Escuchá este audio:</div><div>
-</div><a href="http://flipzu.com/grippo/2170">grippo - Facebook y demas on Flipzu</a><div>
+</div><a href="https://flipzu.com/grippo/2170">grippo - Facebook y demas on Flipzu</a><div>
 </div><div>Luego publica en Grippo y tu aviso permanecerá en posición superior un día entero.</div><div>
 </div>
 

@@ -17,7 +17,7 @@ categories:
 <!-- 345 -->
 I've been using Eric Hammond's guide
 
-<a href="http://aws.amazon.com/articles/1663">Running MySQL on Amazon EC2 with EBS (Elastic Block Store)</a>
+<a href="https://aws.amazon.com/articles/1663">Running MySQL on Amazon EC2 with EBS (Elastic Block Store)</a>
 
 for years. It is great if you have to setup a mysql server on EC2. But one thing I couldn't never make work, was the crontab job for making automatized snapshots (a.k.a. backup). Which is a great feature, one of the kind that make the whole process to migrate to cloud computing worthwhile. Because you setup a cron job and forget about backups. Isn't it unvelievable great?
 

@@ -23,9 +23,9 @@ Actualización:
 15:09hs Todavía no se puede estimar un tiempo de resolución para hablan de algunas horas más. 
 
 Actualización 2:
-16:09 De acuerdo con las crónicas de Sarah Connor -- http://en.wikipedia.org/wiki/Skynet_(Terminator) -- Skynet (un sistema de inteligencia artificial desarrollado por la compañìa Cyberdyne Systems) se vuelve conciente de sí mismo un 19 de abril de 2011, y el 21 de abril de 2011 decide atacar a la humanidad entera. Usuarios de Amazon #AWS preguntaron al servicio técnico de Amazon si la caída de la zona EAST-1-C está relacionada con Skynet y respondieron que "por ahora" no -- https://forums.aws.amazon.com/message.jspa?messageID=238872#238872 -- entonces otro usuario respondío "eso es lo que Skynet hubiera dicho" LOL
+16:09 De acuerdo con las crónicas de Sarah Connor -- https://en.wikipedia.org/wiki/Skynet_(Terminator) -- Skynet (un sistema de inteligencia artificial desarrollado por la compañìa Cyberdyne Systems) se vuelve conciente de sí mismo un 19 de abril de 2011, y el 21 de abril de 2011 decide atacar a la humanidad entera. Usuarios de Amazon #AWS preguntaron al servicio técnico de Amazon si la caída de la zona EAST-1-C está relacionada con Skynet y respondieron que "por ahora" no -- https://forums.aws.amazon.com/message.jspa?messageID=238872#238872 -- entonces otro usuario respondío "eso es lo que Skynet hubiera dicho" LOL
 
 Actualización 3:
-16:37 Se anunciaron progresos en la estasbilización de la zona EAST-1, pero todavía falta más. Este artículo http://justinsb.posterous.com/aws-down-why-the-sky-is-falling explica entre otras cosas por qué no debe culparse a los CTOs por planificar mal, sino a Amazon por no cumplir con su promesa. Sitios como foursquare.com, quora.com, reddit.com están fuera de línea por el mismo motivo.
+16:37 Se anunciaron progresos en la estasbilización de la zona EAST-1, pero todavía falta más. Este artículo https://justinsb.posterous.com/aws-down-why-the-sky-is-falling explica entre otras cosas por qué no debe culparse a los CTOs por planificar mal, sino a Amazon por no cumplir con su promesa. Sitios como foursquare.com, quora.com, reddit.com están fuera de línea por el mismo motivo.
 
 

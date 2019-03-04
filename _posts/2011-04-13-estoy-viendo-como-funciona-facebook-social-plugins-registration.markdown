@@ -15,5 +15,5 @@ categories:
 
 ---
 <!-- 184 -->
-Estoy viendo como funciona Facebook -&gt; Social Plugins -&gt; Registration -- http://developers.facebook.com/docs/plugins/registration/
+Estoy viendo como funciona Facebook -&gt; Social Plugins -&gt; Registration -- https://developers.facebook.com/docs/plugins/registration/
 

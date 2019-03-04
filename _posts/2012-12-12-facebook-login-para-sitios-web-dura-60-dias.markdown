@@ -23,7 +23,7 @@ Estos son los datos pasados por Facebook a una App, luego de hacer Facebook Logi
   'fb_issued_at' => 1355329406,
 </pre>
 
-Los valores est&aacute;n expresados en Unix time (<a href="http://en.wikipedia.org/wiki/Unix_epoch">Unix epoch</a>), o sea cantidad de segundos desde 1 de enero de 1970. La diferencia entre <tt>fb_expires</tt> menos <tt>fb_issued_at</tt> son <tt>5184000</tt> segundos, o sea, 60 d&iacute;as.
+Los valores est&aacute;n expresados en Unix time (<a href="https://en.wikipedia.org/wiki/Unix_epoch">Unix epoch</a>), o sea cantidad de segundos desde 1 de enero de 1970. La diferencia entre <tt>fb_expires</tt> menos <tt>fb_issued_at</tt> son <tt>5184000</tt> segundos, o sea, 60 d&iacute;as.
 
 
 

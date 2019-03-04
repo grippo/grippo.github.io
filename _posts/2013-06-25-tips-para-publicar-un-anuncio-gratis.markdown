@@ -34,7 +34,7 @@ Estos tips te ayudarán a ubicarte en una mentalidad de acuerdo con los valores 
 	<li><strong>Detalles accesorios que deben figurar en tu anuncio.</strong> Si bien estamos <em>enfocados</em>, y contestando una pregunta por vez. Antes de cerrar tu anuncio, pregúntate qué aderezo le vendría bien, como si fuera un rico platillo. Por supuesto que agregar imágenes del producto, servicio o solución, es muy adecuado. Si has desarrollado una explicación en formato de video, obviamente también. No dejes de dar señales de dónde se ofrece tu producto o servicio, si hay costos de envío cuáles son, si hay alguna oferta especial, menciónala. Pregúntate de qué manera, información selecta que puedes incluir, hará de la experiencia algo más interesante para tus clientes.</li>
 	<li><strong>Incluye un precio.</strong> Hay una tendencia muy comprobada: los anunciantes no quieren poner el precio de su producto o servicio, e incluso usan esa incógnita para forzar el inicio de una relación. Que pregunten. Sin embargo, aquí nos centramos en una propuesta audaz. Haz feliz al usuario primero. Luego piensa en venderle. Haz feliz al usuario primero, diciéndole de antemano y sin necesidad de que pregunte, cuánto cuesta tu producto ó servicio. Todos estarán mas contentos, incluso los anunciantes.</li>
 </ol>
-Ahora vé y publica todos los anuncios gratis que quieras. No te pediremos nada a cambio =&gt;<a title="Publicar anuncio gratis" href="http://www.grippo.com/enviar.htm" target="_blank"> http://www.grippo.com/enviar.htm</a>
+Ahora vé y publica todos los anuncios gratis que quieras. No te pediremos nada a cambio =&gt;<a title="Publicar anuncio gratis" href="https://www.grippo.com/enviar.htm" target="_blank"> https://www.grippo.com/enviar.htm</a>
 
 &nbsp;
 

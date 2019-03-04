@@ -85,7 +85,7 @@ dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
 
 	{% if site.facebook_comments %}
 	<h4>Com&eacute;ntalo en tu Facebook</h4>
-	<fb:comments href="{{ site.url }}{{ page.url }}" num_posts="20" simple="true" showform="false" width="100%"></fb:comments>
+	<div class="fb-comments" data-href="{{ site.url }}{{ page.url }}" data-width="100%" data-numposts="20"></div>
 	{% endif %}
 
 

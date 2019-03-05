@@ -30,16 +30,10 @@ google_ads_9: false
 firebase_url: https://hitscounter.firebaseio.com
 firebase_table: blog
 
-gems:
-- jekyll-paginate
-- jekyll-feed
-- jekyll-sitemap
-
 plugins:
 - jekyll-paginate
-- jekyll-feed
 - jekyll-sitemap
-
+- jekyll-feed
 
 author:
   name: Jorge Grippo

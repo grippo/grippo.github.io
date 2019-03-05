@@ -28,11 +28,11 @@
 <title>{{ page.title }}</title>
 <meta name="title" content="{{ page.title }}">
 {% else %}
-<title>{{ site.title }}</title>
-<meta name="title" content="{{ site.title }}">
+<title>{{ site.name }}</title>
+<meta name="title" content="{{ site.name }}">
 {% endif %}
 <meta charset="utf-8">
-<script type="text/javascript" src="https://www.google.com/jsapi?key=ABQIAAAAJdkGEFTgqxMMkDNcBhIkxRToDxNj1XMoLLLfh-7X858QwysyFBS9ehOLy-x-TNlJBSthVEWT0oTl3Q"></script>
+<script type="text/javascript" src="//www.google.com/jsapi?key=ABQIAAAAJdkGEFTgqxMMkDNcBhIkxRToDxNj1XMoLLLfh-7X858QwysyFBS9ehOLy-x-TNlJBSthVEWT0oTl3Q"></script>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
     <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
@@ -52,7 +52,7 @@
             <link rel="stylesheet" href="https://purecss.io/combo/1.18.13?/css/layouts/blog.css">
         <!--<![endif]-->
     <!--[if lt IE 9]>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js"></script>
     <![endif]-->
 
 
@@ -60,7 +60,7 @@
 {% if page.title %}
 <meta property="og:title" content="{{ page.title }}" />
 {% else %}
-<meta property="og:title" content="{{ site.title }}" />
+<meta property="og:title" content="{{ site.name }}" />
 {% endif %}
 <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
 <meta property="og:description" content="{{ page.excerpt | strip_html | strip_newlines | truncatewords: 32}}" />
@@ -68,62 +68,55 @@
 {% if page.og_image %}
 <meta property="og:image" content="{{ page.og_image }}" />
 {% endif %}
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-2290933460302426",
+          enable_page_level_ads: true
+     });
+</script>
 </HEAD>
 <body>
 <div id="layout" class="pure-g">
-    <div class="sidebar pure-u-1 pure-u-md-1-4">
-        <div class="header">
-            <a href="/"><h2 class="brand-title">{{ site.name }}</h2></a>
-            <!-- h2 class="brand-tagline">{{ site.tagline }}</h2 -->
+  <div class="sidebar pure-u-1 pure-u-md-1-4">
+      <div class="header">
+          <a href="/"><h2 class="brand-title">{{ site.name }}</h2></a>
+          <h3 class="brand-tagline">{{ site.tagline }}</h3>
+          {% include call_to_action.inc %}
+      </div>
+  </div>
 
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li class="nav-item">
-                        <a class="pure-button" href="http://www.grippo.com/">Ir a Anuncios Grippo</a>
-                    </li>
-                </ul>
-            </nav>
+
+  <div class="content pure-u-1 pure-u-md-3-4">
+   	<div class="posts">
+  		{% include search.inc %}
+  		<h3 class="content-subhead">{{ site.name }}</h3>
+
+  		{% include ads-1.inc %}
+
+  		{{ content }}
+
+  		{% include ads-9.inc %}
+
+
+      <div class="footer">
+        <div class="pure-menu pure-menu-horizontal">
+          <ul>
+          <li class="pure-menu-item"><a href="https://blog.grippo.com/" class="pure-menu-link">{{ site.copyright }}</a>
+          <li class="pure-menu-item"><a href="/contacto.html" rel="nofollow" class="pure-menu-link">Contacto</a>
+          <li class="pure-menu-item"><a href="https://twitter.com/grippocom" rel="nofollow" class="pure-menu-link">@grippocom</a>
+          <li class="pure-menu-item"><a href="https://apps.facebook.com/-grippo/" rel="nofollow" class="pure-menu-link">Publicar Anuncios Gratis en Facebook</a>
+          <li class="pure-menu-item"><a href="/about.html" rel="nofollow" class="pure-menu-link">Acerca de ...</a>
+          <li class="pure-menu-item"><a href="{{ site.feedburner }}" rel="alternate" type="application/rss+xml">RSS + XML</a>
+          </ul>
         </div>
+      </div>
     </div>
+  </div>
 
-
-    <div class="content pure-u-1 pure-u-md-3-4">
-        <div>
-         	<div class="posts">
-				{% include search.inc %}
-				{% if page.title %}
-				{% else %}
-				<h1 class="content-subhead">{{ site.title }}</h1>
-				{% endif %}
-
-				{% include ads-1.inc %}
-
-				{{ content }}
-
-				{% include ads-9.inc %}
-		</div>
-	</div>
-
-
-	<div class="footer">
-	    <div class="pure-menu pure-menu-horizontal">
-			<ul>
-	            <li class="pure-menu-item"><a class="pure-menu-link">{{ site.copyright }}</a>
-	            <li class="pure-menu-item"><a href="/contacto.html" rel="nofollow" class="pure-menu-link">Contacto</a>
-	            <li class="pure-menu-item"><a href="https://twitter.com/grippocom" rel="nofollow" class="pure-menu-link">@grippocom</a>
-	            <li class="pure-menu-item"><a href="https://apps.facebook.com/-grippo/" rel="nofollow" class="pure-menu-link">Publicar Anuncios Gratis en Facebook</a>
-	            <li class="pure-menu-item"><a href="/about/index.html" rel="nofollow" class="pure-menu-link">Acerca de ...</a>
-	            <li class="pure-menu-item"><a href="{{ site.feedburner }}" rel="alternate" type="application/rss+xml">RSS + XML</a>
-	        </ul>
-	    </div>
-	</div>
-
+  <div id="fb-root"></div>
 </div>
 
-
-
-
-<div id="fb-root"></div>
 <script async defer src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v3.2&appId=1218506551503338&autoLogAppEvents=1"></script>
 
 <script type="text/javascript">
@@ -133,9 +126,6 @@ po.src = 'https://platform.twitter.com/widgets.js';
 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
 })();
 </script>
-
-
-<script src="{{ site.cdn_url }}/static/bootstrap-3.3.4/js/bootstrap.min.js"></script>
 
 
 <script>
